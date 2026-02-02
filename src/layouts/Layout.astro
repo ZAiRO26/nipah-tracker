@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import ShareButton from '../components/ShareButton';
+import InstallButton from '../components/InstallButton';
 
 interface Props {
 	title: string;
@@ -12,8 +14,8 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Real-Time Nipah Virus Surveillance & Safety Platform" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Real-time surveillance and safety tracking for Nipah Virus (NiV) outbreaks." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -37,21 +39,25 @@ const { title } = Astro.props;
 	</head>
 	<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans">
 		<header class="bg-white shadow-sm sticky top-0 z-50">
-            <nav class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-                <a href="/" class="text-xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
-                    <span class="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
-                    NiV-Tracker
-                </a>
-                <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600">
-                    <a href="/" class="hover:text-red-600 transition-colors">Home</a>
-                    <a href="/tracker" class="hover:text-red-600 transition-colors">Tracker</a>
-                    <a href="/safety" class="hover:text-red-600 transition-colors">Safety</a>
-                    <a href="/about" class="hover:text-red-600 transition-colors">About</a>
-                </div>
-            </nav>
-        </header>
+			<nav class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+				<a href="/" class="flex items-center gap-2 font-bold text-xl text-slate-900 hover:opacity-80 transition-opacity">
+					<span class="text-red-600 text-2xl">•</span> NiV-Tracker
+				</a>
+				
+				<div class="flex items-center gap-2">
+					<InstallButton client:only="react" />
+					<div class="hidden sm:flex gap-6 mr-4">
+						<a href="/" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Home</a>
+						<a href="/tracker" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Tracker</a>
+						<a href="/safety" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Safety</a>
+						<a href="/about" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">About</a>
+					</div>
+					<ShareButton client:only="react" />
+				</div>
+			</nav>
+		</header>
 
-		<main class="flex-grow w-full max-w-4xl mx-auto px-4 py-6">
+		<main class="flex-grow max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
 			<slot />
 		</main>
 
