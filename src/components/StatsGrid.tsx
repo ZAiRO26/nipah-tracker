@@ -61,7 +61,7 @@ export default function StatsGrid() {
             <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
                 <p className="text-xs font-medium text-slate-500 uppercase tracking-wider">Last Updated</p>
                 <p className="text-lg font-bold text-slate-700 mt-2">
-                    {new Date(stats.lastUpdated).toLocaleDateString()}
+                    {stats.lastUpdated ? new Date(stats.lastUpdated).toLocaleDateString() : 'Loading...'}
                 </p>
                 <p className="text-xs text-slate-400">
                     {new Date(stats.lastUpdated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
