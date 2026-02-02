@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsGrid from '../components/NewsGrid';
+import { Client } from 'pg';
+
+let articles = [];
+
+try {
+    const client = new Client({ connectionString: import.meta.env.DATABASE_URL });
+    await client.connect();
+    // Fetch latest 50 articles
+    const res = await client.query(`
+        SELECT * FROM news_articles 
+        ORDER BY published_at DESC 
+        LIMIT 50
+    `);
+    articles = res.rows;
+    await client.end();
+} catch (e) {
+    console.error("Failed to fetch news:", e);
+}
+---
+
+<Layout title="Nipah News Briefing | NiV-Tracker">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-slate-900">Global Briefing</h1>
+            <p class="text-slate-600 mt-2">Real-time intelligence related to Nipah Virus outbreaks, curated by AI.</p>
+        </div>
+
+        <NewsGrid client:load initialArticles={articles} />
+    </main>
+</Layout>

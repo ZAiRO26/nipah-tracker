@@ -62,8 +62,21 @@ export default function LiveFeed() {
                                 }`}></div>
 
                             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1">
-                                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                                    {new Date(event.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
+                                    {(() => {
+                                        try {
+                                            const d = new Date(event.date);
+                                            // Filter out 1970/Invalid dates
+                                            if (isNaN(d.getTime()) || d.getFullYear() < 2024) return 'Recent Update';
+                                            
+                                            return d.toLocaleDateString(undefined, { 
+                                                month: 'short', 
+                                                day: 'numeric', 
+                                                year: 'numeric' 
+                                            });
+                                        } catch {
+                                            return 'Recent Update';
+                                        }
+                                    })()}
                                 </span>
                                 <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${event.status === 'CONFIRMED' ? 'bg-red-100 text-red-800' :
                                     event.status === 'SUSPECTED' ? 'bg-orange-100 text-orange-800' : 'bg-slate-100 text-slate-800'
@@ -90,9 +103,9 @@ export default function LiveFeed() {
                                 )}
                             </div>
                         </div>
-                    ))
+            ))
                 )}
-            </div>
         </div>
+        </div >
     );
 }
