@@ -1,0 +1,73 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Real-Time Nipah Virus Surveillance & Safety Platform" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence. Official Safety Guidelines included." />
+		<meta property="og:image" content="/favicon.svg" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary" />
+		<meta property="twitter:url" content={Astro.url} />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence." />
+		<meta property="twitter:image" content="/favicon.svg" />
+
+		<!-- Robots -->
+		<meta name="robots" content="index, follow" />
+	</head>
+	<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans">
+		<header class="bg-white shadow-sm sticky top-0 z-50">
+            <nav class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+                <a href="/" class="text-xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
+                    NiV-Tracker
+                </a>
+                <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600">
+                    <a href="/" class="hover:text-red-600 transition-colors">Home</a>
+                    <a href="/tracker" class="hover:text-red-600 transition-colors">Tracker</a>
+                    <a href="/safety" class="hover:text-red-600 transition-colors">Safety</a>
+                    <a href="/about" class="hover:text-red-600 transition-colors">About</a>
+                </div>
+            </nav>
+        </header>
+
+		<main class="flex-grow w-full max-w-4xl mx-auto px-4 py-6">
+			<slot />
+		</main>
+
+        <nav class="md:hidden fixed bottom-0 w-full bg-white border-t border-gray-200 flex justify-around py-2 text-xs font-medium text-gray-500 pb-safe z-50">
+            <a href="/" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
+                <span>Home</span>
+            </a>
+            <a href="/tracker" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
+                <span>Tracker</span>
+            </a>
+            <a href="/safety" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
+                <span>Safety</span>
+            </a>
+            <a href="/about" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
+                <span>About</span>
+            </a>
+        </nav>
+	</body>
+</html>

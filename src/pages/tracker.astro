@@ -1,0 +1,32 @@
+---
+export const prerender = false;
+import Layout from '../layouts/Layout.astro';
+import MapView from '../components/MapView';
+---
+
+<Layout title="Outbreak Tracker | NiV-Tracker">
+	<div class="mb-6">
+        <h1 class="text-2xl font-bold text-slate-900">Outbreak Tracker</h1>
+        <p class="text-slate-600">Real-time map of confirmed and suspected clusters.</p>
+    </div>
+
+    <!-- client:only="react" is crucial for Leaflet to work in Astro -->
+    <MapView client:only="react" />
+
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="p-4 bg-red-50 border border-red-100 rounded-lg flex items-start gap-4">
+            <div class="w-4 h-4 rounded-full bg-red-600 mt-1 shrink-0"></div>
+            <div>
+                <h3 class="font-semibold text-red-900">Active Clusters</h3>
+                <p class="text-sm text-red-800">Red zones indicate areas with confirmed human-to-human transmission. Avoid non-essential travel.</p>
+            </div>
+        </div>
+        <div class="p-4 bg-orange-50 border border-orange-100 rounded-lg flex items-start gap-4">
+            <div class="w-4 h-4 rounded-full bg-orange-500 mt-1 shrink-0"></div>
+            <div>
+                <h3 class="font-semibold text-orange-900">Surveillance Zones</h3>
+                <p class="text-sm text-orange-800">Orange zones are under active contact tracing. Use mask and maintain hygiene.</p>
+            </div>
+        </div>
+    </div>
+</Layout>

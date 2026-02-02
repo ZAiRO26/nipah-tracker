@@ -1,0 +1,42 @@
+{
+  "name": "niv-tracker",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^6.6.4",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/sitemap": "^3.7.0",
+    "@nanostores/react": "^1.0.0",
+    "@netlify/functions": "^5.1.2",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/leaflet": "^1.9.21",
+    "@types/pg": "^8.16.0",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "groq-sdk": "^0.37.0",
+    "leaflet": "^1.9.4",
+    "nanostores": "^1.1.0",
+    "openai": "^6.17.0",
+    "pg": "^8.18.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-leaflet": "^5.0.0",
+    "rss-parser": "^3.13.0",
+    "tailwindcss": "^4.1.18",
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0"
+  }
+}

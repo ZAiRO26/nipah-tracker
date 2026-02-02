@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SymptomChecker from '../components/SymptomChecker';
+---
+
+<Layout title="Safety Hub | NiV-Tracker">
+	<div class="mb-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+        <h1 class="text-2xl font-bold text-slate-900">Safety Hub</h1>
+        <p class="text-slate-600">Official guidelines for Nipah Virus prevention (WHO/NCDC).</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <div class="space-y-6">
+            <section>
+                 <div class="bg-emerald-50 rounded-xl p-8 border border-emerald-100">
+                    <h2 class="text-2xl font-bold text-emerald-900 mb-6 flex items-center">
+                        <span class="bg-emerald-200 text-emerald-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 text-sm">✓</span>
+                        Do's (Prevention)
+                    </h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-emerald-500 mr-2 font-bold">•</span>
+                            <span class="text-emerald-900"><strong>Wash fruits thoroughly</strong> and peel them before consuming.</span>
+                        </li>
+                         <li class="flex items-start">
+                            <span class="text-emerald-500 mr-2 font-bold">•</span>
+                            <span class="text-emerald-900"><strong>Boil Date Palm Juice</strong> freshly collected before drinking.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-emerald-500 mr-2 font-bold">•</span>
+                            <span class="text-emerald-900">Wash hands with soap and water after visiting sick persons.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-emerald-500 mr-2 font-bold">•</span>
+                            <span class="text-emerald-900">Wear N95 masks if entering containment zones.</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="bg-red-50 rounded-xl p-8 border border-red-100">
+                    <h2 class="text-2xl font-bold text-red-900 mb-6 flex items-center">
+                        <span class="bg-red-200 text-red-800 rounded-full w-8 h-8 flex items-center justify-center mr-3 text-sm">✕</span>
+                        Don'ts (High Risk)
+                    </h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-900"><strong>DO NOT eat fruits</strong> with bite marks (bird/bat bites).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-900"><strong>DO NOT drink raw</strong> Date Palm Sap (Toddy) in endemic areas.</span>
+                        </li>
+                         <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-900">Avoid direct contact with pigs or bat roosting areas.</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div>
+             <div class="sticky top-24">
+                <h2 class="text-xl font-bold text-slate-900 mb-4">Symptom Checker</h2>
+                <SymptomChecker client:visible />
+
+                <div class="mt-8 p-6 bg-slate-100 rounded-xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 mb-2">Emergency Contacts</h3>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-slate-600">National Helpline</span>
+                            <a href="tel:1075" class="font-bold text-blue-600 hover:underline">1075</a>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-600">Kerala Sentinel</span>
+                            <a href="tel:1056" class="font-bold text-blue-600 hover:underline">1056</a>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-600">West Bengal Health</span>
+                            <a href="tel:1800313444222" class="font-bold text-blue-600 hover:underline">1800-313-444-222</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Layout>
