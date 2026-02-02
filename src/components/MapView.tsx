@@ -30,7 +30,7 @@ function MapUpdater({ events }: { events: OutbreakEvent[] }) {
 
             if (markers.length > 0) {
                 const group = new L.FeatureGroup(markers);
-                map.fitBounds(group.getBounds(), { padding: [50, 50] });
+                map.fitBounds(group.getBounds(), { padding: [50, 50], maxZoom: 5 });
             }
         }
     }, [events, map]);
@@ -62,8 +62,8 @@ export default function MapView() {
     }
 
     return (
-        <div className="h-[600px] w-full rounded-xl overflow-hidden border border-slate-200 z-0">
-            <MapContainer center={position} zoom={3} scrollWheelZoom={false} style={{ height: "100%", width: "100%" }}>
+        <div className="h-[600px] w-full rounded-xl overflow-hidden border border-slate-200 z-0 shadow-sm relative">
+            <MapContainer center={position} zoom={4} scrollWheelZoom={true} style={{ height: "100%", width: "100%" }}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
