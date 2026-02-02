@@ -56,18 +56,18 @@ export const translations = {
             national: 'National Helpline',
             kerala_sentinel: 'Kerala Sentinel',
             wb_health: 'West Bengal Health'
+        },
+        stats: {
+            confirmed: 'Confirmed Cases',
+            suspected: 'Suspected Cases',
+            active_clusters: 'Active Clusters',
+            deaths: 'Total Deaths',
+            last_updated: 'Last Updated',
+            recent: 'Recent',
+            loading: 'Loading...'
         }
     },
     ml: {
-        stats: {
-            confirmed: 'സ്ഥിരീകരിച്ച കേസുകൾ',
-            suspected: 'സംശയിക്കപ്പെടുന്നവ',
-            active_clusters: 'സജീവ ക്ലസ്റ്ററുകൾ',
-            deaths: 'ആകെ മരണം',
-            last_updated: 'അവസാന അപ്ഡേറ്റ്',
-            recent: 'അടുത്തിടെ',
-            loading: 'ലോഡ് ചെയ്യുന്നു...'
-        },
         nav: {
             home: 'ഹോം',
             tracker: 'ട്രാക്കർ',
@@ -124,18 +124,18 @@ export const translations = {
             national: 'ദേശീയ ഹെൽപ്പ്‌ലൈൻ',
             kerala_sentinel: 'കേരള ദിശ',
             wb_health: 'വെസ്റ്റ് ബംഗാൾ ഹെൽത്ത്'
+        },
+        stats: {
+            confirmed: 'സ്ഥിരീകരിച്ച കേസുകൾ',
+            suspected: 'സംശയിക്കപ്പെടുന്നവ',
+            active_clusters: 'സജീവ ക്ലസ്റ്ററുകൾ',
+            deaths: 'ആകെ മരണം',
+            last_updated: 'അവസാന അപ്ഡേറ്റ്',
+            recent: 'അടുത്തിടെ',
+            loading: 'ലോഡ് ചെയ്യുന്നു...'
         }
     },
     bn: {
-        stats: {
-            confirmed: 'নিশ্চিত কেস',
-            suspected: 'সন্দেহজনক কেস',
-            active_clusters: 'সক্রিয় ক্লাস্টার',
-            deaths: 'মোট মৃত্যু',
-            last_updated: 'সর্বশেষ আপডেট',
-            recent: 'সাম্প্রতিক',
-            loading: 'লোড হচ্ছে...'
-        },
         nav: {
             home: 'হোম',
             tracker: 'ট্র্যাকার',
@@ -192,15 +192,15 @@ export const translations = {
             national: 'জাতীয় হেল্পলাইন',
             kerala_sentinel: 'কেরালা দিশা',
             wb_health: 'পশ্চিমবঙ্গ স্বাস্থ্য'
+        },
+        stats: {
+            confirmed: 'নিশ্চিত কেস',
+            suspected: 'সন্দেহজনক কেস',
+            active_clusters: 'সক্রিয় ক্লাস্টার',
+            deaths: 'মোট মৃত্যু',
+            last_updated: 'সর্বশেষ আপডেট',
+            recent: 'সাম্প্রতিক',
+            loading: 'লোড হচ্ছে...'
         }
-    },
-    stats: {
-        confirmed: 'Confirmed Cases',
-        suspected: 'Suspected Cases',
-        active_clusters: 'Active Clusters',
-        deaths: 'Total Deaths',
-        last_updated: 'Last Updated',
-        recent: 'Recent',
-        loading: 'Loading...'
     }
 };
