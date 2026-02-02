@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import ShareButton from '../components/ShareButton';
 import InstallButton from '../components/InstallButton';
+import NotificationButton from '../components/NotificationButton';
 
 interface Props {
 	title: string;
@@ -44,7 +45,7 @@ const { title } = Astro.props;
 					<span class="text-red-600 text-2xl">•</span> NiV-Tracker
 				</a>
 				
-				<div class="flex items-center gap-2">
+				<div class="flex items-center gap-1 sm:gap-2">
 					<InstallButton client:only="react" />
 					<div class="hidden sm:flex gap-6 mr-4">
 						<a href="/" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Home</a>
@@ -52,6 +53,7 @@ const { title } = Astro.props;
 						<a href="/safety" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Safety</a>
 						<a href="/about" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">About</a>
 					</div>
+                    <NotificationButton client:only="react" />
 					<ShareButton client:only="react" />
 				</div>
 			</nav>

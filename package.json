@@ -22,6 +22,7 @@
     "astro": "^5.17.1",
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
+    "firebase": "^12.8.0",
     "groq-sdk": "^0.37.0",
     "leaflet": "^1.9.4",
     "nanostores": "^1.1.0",
