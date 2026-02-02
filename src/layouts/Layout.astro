@@ -1,9 +1,6 @@
 ---
 import '../styles/global.css';
-import ShareButton from '../components/ShareButton';
-import InstallButton from '../components/InstallButton';
-import NotificationButton from '../components/NotificationButton';
-import LanguageSelector from '../components/LanguageSelector';
+import Navbar from '../components/Navbar';
 
 interface Props {
 	title: string;
@@ -41,27 +38,7 @@ const { title } = Astro.props;
 	</head>
 	<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans">
 		<header class="bg-white shadow-sm sticky top-0 z-50">
-			<nav class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-				<a href="/" class="flex items-center gap-2 font-bold text-xl text-slate-900 hover:opacity-80 transition-opacity">
-					<span class="text-red-600 text-2xl">•</span> NiV-Tracker
-				</a>
-				
-				<div class="flex items-center gap-1 sm:gap-2">
-					<InstallButton client:only="react" />
-					<div class="hidden sm:flex gap-6 mr-4">
-						<a href="/" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Home</a>
-						<a href="/tracker" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Tracker</a>
-						<a href="/news" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">News</a>
-						<a href="/safety" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Safety</a>
-						<a href="/about" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">About</a>
-					</div>
-                    <div class="mr-2">
-                        <LanguageSelector client:only="react" />
-                    </div>
-                    <NotificationButton client:only="react" />
-					<ShareButton client:only="react" />
-				</div>
-			</nav>
+			<Navbar client:load />
 		</header>
 
 		<main class="flex-grow max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">

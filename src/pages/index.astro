@@ -3,29 +3,11 @@ export const prerender = false;
 import Layout from '../layouts/Layout.astro';
 import StatsGrid from '../components/StatsGrid';
 import LiveFeed from '../components/LiveFeed';
-import LiveClock from '../components/LiveClock';
+import StatusBanner from '../components/StatusBanner';
 ---
 
 <Layout title="NiV-Tracker | Real-time Nipah Virus Surveillance">
-    <div class="mb-8 p-4 sm:p-6 rounded-2xl bg-gradient-to-r from-red-50 to-orange-50 border border-red-100 text-center relative overflow-hidden">
-        <div class="absolute top-4 right-4 hidden sm:block">
-            <LiveClock client:only="react" />
-        </div>
-        <div class="sm:hidden mb-4 flex justify-center">
-             <LiveClock client:only="react" />
-        </div>
-        
-        <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2 flex flex-col sm:block items-center justify-center gap-2">
-            Status: <span class="text-red-600 inline-flex items-center"><span class="w-3 h-3 bg-red-600 rounded-full mr-2 animate-pulse"></span>Active Outbreak</span>
-        </h1>
-        <p class="text-slate-600 text-sm sm:text-base max-w-xl mx-auto mb-6">
-            Monitoring confirmed Nipah virus cases globally. Authorities advise caution in affected districts. Stay updated with real-time reports.
-        </p>
-
-        <a href="/tracker" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold py-2.5 px-6 rounded-full transition-all shadow-lg shadow-red-200 hover:shadow-red-300 transform hover:-translate-y-0.5">
-            <span>🗺️</span> View Live Map
-        </a>
-    </div>
+    <StatusBanner client:load />
 
     <StatsGrid client:load />
 

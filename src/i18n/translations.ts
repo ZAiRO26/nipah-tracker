@@ -3,10 +3,25 @@ export const translations = {
         nav: {
             home: 'Home',
             tracker: 'Tracker',
+            news: 'News',
             safety: 'Safety',
             about: 'About',
             install: 'Install App',
             share: 'Share Status'
+        },
+        banner: {
+            status: 'Status:',
+            active_outbreak: 'Active Outbreak',
+            subtitle: 'Monitoring confirmed Nipah virus cases globally. Authorities advise caution in affected districts.',
+            view_map: 'View Live Map'
+        },
+        news: {
+            title: 'Global Briefing',
+            subtitle: 'Real-time intelligence related to Nipah Virus outbreaks, curated by AI.',
+            all: 'All',
+            official: 'Official',
+            social: 'Social',
+            refresh: 'Refresh Feed'
         },
         checker: {
             title: 'Symptom Checker',
@@ -47,10 +62,25 @@ export const translations = {
         nav: {
             home: 'ഹോം',
             tracker: 'ട്രാക്കർ',
+            news: 'വാർത്തകൾ',
             safety: 'സുരക്ഷ',
             about: 'വിവരങ്ങൾ',
             install: 'ആപ്പ് ഇൻസ്റ്റാൾ',
             share: 'പങ്കിടുക'
+        },
+        banner: {
+            status: 'അവസ്ഥ:',
+            active_outbreak: 'ജാഗ്രത പാലിക്കുക',
+            subtitle: 'ലോകമെമ്പാടുമുള്ള നിപ വൈറസ് കേസുകൾ നിരീക്ഷിക്കുന്നു. ജാഗ്രത പാലിക്കാൻ നിർദ്ദേശം.',
+            view_map: 'മാപ്പ് കാണുക'
+        },
+        news: {
+            title: 'നിപ വാർത്തകൾ',
+            subtitle: 'തത്സമയ വിവരങ്ങൾ AI സഹായത്തോടെ.',
+            all: 'എല്ലാം',
+            official: 'ഔദ്യോഗികം',
+            social: 'സോഷ്യൽ',
+            refresh: 'പുതുക്കുക'
         },
         checker: {
             title: 'രോഗലക്ഷണ പരിശോധന',
@@ -91,10 +121,25 @@ export const translations = {
         nav: {
             home: 'হোম',
             tracker: 'ট্র্যাকার',
+            news: 'খবর',
             safety: 'সুরক্ষা',
             about: 'সম্পর্কে',
             install: 'অ্যাপ ইন্সটল',
             share: 'শেয়ার করুন'
+        },
+        banner: {
+            status: 'অবস্থা:',
+            active_outbreak: 'সক্রিয় প্রাদুর্ভাব',
+            subtitle: 'বিশ্বব্যাপী নিপাহ ভাইরাস কেস পর্যবেক্ষণ করা হচ্ছে। কর্তৃপক্ষ সতর্ক থাকার পরামর্শ দিয়েছে।',
+            view_map: 'লাইভ ম্যাপ দেখুন'
+        },
+        news: {
+            title: 'নিপাহ সংবাদ',
+            subtitle: 'এআই-কিউরেটেড রিয়েল-টাইম আপডেট।',
+            all: 'সব',
+            official: 'অফিসিয়াল',
+            social: 'সোশ্যাল',
+            refresh: 'রিফ্রেশ'
         },
         checker: {
             title: 'লক্ষণ পরীক্ষক',

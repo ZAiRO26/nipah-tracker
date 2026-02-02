@@ -1,37 +1,28 @@
+
 import type { APIRoute } from 'astro';
 import { Client } from 'pg';
 
 export const GET: APIRoute = async () => {
-    if (!import.meta.env.DATABASE_URL) {
-        return new Response(JSON.stringify({ error: "DATABASE_URL not set" }), { status: 500 });
-    }
-
-    const client = new Client({
-        connectionString: import.meta.env.DATABASE_URL
-    });
-
+    let client;
     try {
+        client = new Client({ connectionString: import.meta.env.DATABASE_URL });
         await client.connect();
 
-        // Fetch all events sorted by date
-        const eventsRes = await client.query(`
-        SELECT * FROM outbreak_events 
-        ORDER BY date DESC
-    `);
+        const res = await client.query(`
+            SELECT * FROM outbreak_events 
+            ORDER BY date DESC 
+            LIMIT 50
+        `);
 
-        return new Response(JSON.stringify(eventsRes.rows), {
+        return new Response(JSON.stringify(res.rows), {
             status: 200,
             headers: {
-                "Content-Type": "application/json",
-                "Cache-Control": "public, s-maxage=60, stale-while-revalidate=30"
+                "Content-Type": "application/json"
             }
         });
-
     } catch (error) {
-        console.error("DB Error:", error);
-        // Fallback: Return empty array to keep UI stable (0 cases) instead of crashing
-        return new Response(JSON.stringify([]), { status: 200, headers: { "Content-Type": "application/json" } });
+        return new Response(JSON.stringify({ error: "Error fetching stats" }), { status: 500 });
     } finally {
-        await client.end();
+        if (client) await client.end();
     }
 }
