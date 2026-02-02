@@ -12,6 +12,7 @@ try {
     // Fetch latest 50 articles
     const res = await client.query(`
         SELECT * FROM news_articles 
+        WHERE published_at >= '2025-11-01'
         ORDER BY published_at DESC 
         LIMIT 50
     `);

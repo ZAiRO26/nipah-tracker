@@ -10,6 +10,7 @@ export const GET: APIRoute = async () => {
 
         const res = await client.query(`
             SELECT * FROM outbreak_events 
+            WHERE date >= '2025-11-01'
             ORDER BY date DESC 
             LIMIT 50
         `);
