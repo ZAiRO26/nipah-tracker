@@ -62,16 +62,17 @@ export default function LiveFeed() {
                                 }`}></div>
 
                             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1">
+                                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
                                     {(() => {
                                         try {
                                             const d = new Date(event.date);
                                             // Filter out 1970/Invalid dates
                                             if (isNaN(d.getTime()) || d.getFullYear() < 2024) return 'Recent Update';
-                                            
-                                            return d.toLocaleDateString(undefined, { 
-                                                month: 'short', 
-                                                day: 'numeric', 
-                                                year: 'numeric' 
+
+                                            return d.toLocaleDateString(undefined, {
+                                                month: 'short',
+                                                day: 'numeric',
+                                                year: 'numeric'
                                             });
                                         } catch {
                                             return 'Recent Update';
@@ -103,9 +104,9 @@ export default function LiveFeed() {
                                 )}
                             </div>
                         </div>
-            ))
+                    ))
                 )}
-        </div>
+            </div>
         </div >
     );
 }
