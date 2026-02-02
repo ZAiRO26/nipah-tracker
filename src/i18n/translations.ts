@@ -1,0 +1,134 @@
+export const translations = {
+    en: {
+        nav: {
+            home: 'Home',
+            tracker: 'Tracker',
+            safety: 'Safety',
+            about: 'About',
+            install: 'Install App',
+            share: 'Share Status'
+        },
+        checker: {
+            title: 'Symptom Checker',
+            question_fever: 'Do you have a fever?',
+            question_headache: 'Do you have a severe headache?',
+            question_contact: 'Have you had contact with bats, pigs, or sick people?',
+            question_breath: 'Are you experiencing difficulty breathing?',
+            result_high: 'HIGH RISK: Please contact emergency services immediately.',
+            result_moderate: 'MODERATE RISK: Isolate and monitor symptoms. Consult a doctor.',
+            result_low: 'LOW RISK: Monitor your health. Follow prevention guidelines.',
+            btn_yes: 'Yes',
+            btn_no: 'No',
+            btn_reset: 'Reset Checker'
+        },
+        safety: {
+            title: 'Safety Hub',
+            subtitle: 'Official guidelines for Nipah Virus prevention.',
+            dos_title: "Do's (Prevention)",
+            donts_title: "Don'ts (High Risk)",
+            dos: [
+                'Wash fruits thoroughly and peel them before consuming.',
+                'Boil Date Palm Juice freshly collected before drinking.',
+                'Wash hands with soap and water after visiting sick persons.',
+                'Wear N95 masks if entering containment zones.'
+            ],
+            donts: [
+                'DO NOT eat fruits with bite marks (bird/bat bites).',
+                'DO NOT drink raw Date Palm Sap (Toddy) in endemic areas.',
+                'Avoid direct contact with pigs or bat roosting areas.'
+            ],
+            helplines: 'Emergency Helplines',
+            national: 'National Helpline',
+            kerala_sentinel: 'Kerala Sentinel',
+            wb_health: 'West Bengal Health'
+        }
+    },
+    ml: {
+        nav: {
+            home: 'ഹോം',
+            tracker: 'ട്രാക്കർ',
+            safety: 'സുരക്ഷ',
+            about: 'വിവരങ്ങൾ',
+            install: 'ആപ്പ് ഇൻസ്റ്റാൾ',
+            share: 'പങ്കിടുക'
+        },
+        checker: {
+            title: 'രോഗലക്ഷണ പരിശോധന',
+            question_fever: 'നിങ്ങൾക്ക് പനി ഉണ്ടോ?',
+            question_headache: 'കഠിനമായ തലവേദന ഉണ്ടോ?',
+            question_contact: 'നിങ്ങൾക്ക് വവ്വാലുകൾ, പന്നികൾ അല്ലെങ്കിൽ രോഗികളുമായി സമ്പർക്കമുണ്ടായിട്ടുണ്ടോ?',
+            question_breath: 'ശ്വാസം മുട്ടൽ അനുഭവപ്പെടുന്നുണ്ടോ?',
+            result_high: 'ഉയർന്ന അപകടസാധ്യത: ഉടൻ തന്നെ എമർജൻസി സേവനങ്ങളുമായി ബന്ധപ്പെടുക.',
+            result_moderate: 'മിതമായ അപകടസാധ്യത: ലക്ഷണങ്ങൾ നിരീക്ഷിക്കുക. ഡോക്ടറെ കാണുക.',
+            result_low: 'കുറഞ്ഞ അപകടസാധ്യത: ആരോഗ്യം ശ്രദ്ധിക്കുക. നിർദ്ദേശങ്ങൾ പാലിക്കുക.',
+            btn_yes: 'ഉണ്ട്',
+            btn_no: 'ഇല്ല',
+            btn_reset: 'വീണ്ടും പരിശോധിക്കുക'
+        },
+        safety: {
+            title: 'സുരക്ഷാ കേന്ദ്രം',
+            subtitle: 'നിപ വൈറസ് പ്രതിരോധത്തിനുള്ള ഔദ്യോഗിക നിർദ്ദേശങ്ങൾ.',
+            dos_title: "ശ്രദ്ധിക്കേണ്ട കാര്യങ്ങൾ",
+            donts_title: "ഒഴിവാക്കേണ്ട കാര്യങ്ങൾ",
+            dos: [
+                'പഴങ്ങൾ കഴുകി തൊലി കളഞ്ഞ് മാത്രം കഴിക്കുക.',
+                'ഈന്തപ്പന കള്ള് തിളപ്പിച്ച ശേഷം മാത്രം കുടിക്കുക.',
+                'രോഗികളെ സന്ദർശിച്ച ശേഷം കൈകൽ സോപ്പിട്ടു കഴുകുക.',
+                'കണ്ടൈൻമെന്റ് സോണുകളിൽ N95 മാസ്ക് ധരിക്കുക.'
+            ],
+            donts: [
+                'പക്ഷികളോ വവ്വാലുകളോ കടിച്ച പഴങ്ങൾ കഴിക്കരുത്.',
+                'തിളപ്പിക്കാത്ത ഈന്തപ്പന കള്ള് കുടിക്കരുത്.',
+                'പന്നികളുമായും വവ്വാലുകളുമായും നേരിട്ടുള്ള സമ്പർക്കം ഒഴിവാക്കുക.'
+            ],
+            helplines: 'എമർജൻസി നമ്പറുകൾ',
+            national: 'ദേശീയ ഹെൽപ്പ്‌ലൈൻ',
+            kerala_sentinel: 'കേരള ദിശ',
+            wb_health: 'വെസ്റ്റ് ബംഗാൾ ഹെൽത്ത്'
+        }
+    },
+    bn: {
+        nav: {
+            home: 'হোম',
+            tracker: 'ট্র্যাকার',
+            safety: 'সুরক্ষা',
+            about: 'সম্পর্কে',
+            install: 'অ্যাপ ইন্সটল',
+            share: 'শেয়ার করুন'
+        },
+        checker: {
+            title: 'লক্ষণ পরীক্ষক',
+            question_fever: 'আপনার কি জ্বর আছে?',
+            question_headache: 'আপনার কি তীব্র মাথাব্যথা আছে?',
+            question_contact: 'আপনি কি বাদুড়, শুকর বা অসুস্থ ব্যক্তির সংস্পর্শে এসেছেন?',
+            question_breath: 'আপনার কি শ্বাসকষ্ট হচ্ছে?',
+            result_high: 'উচ্চ ঝুঁকি: অবিলম্বে জরুরি পরিষেবার সাথে যোগাযোগ করুন।',
+            result_moderate: 'মাঝারি ঝুঁকি: লক্ষণগুলি পর্যবেক্ষণ করুন। ডাক্তার দেখান।',
+            result_low: 'কম ঝুঁকি: স্বাস্থ্য বিধি মেনে চলুন।',
+            btn_yes: 'হ্যাঁ',
+            btn_no: 'না',
+            btn_reset: 'পুনরায় শুরু করুন'
+        },
+        safety: {
+            title: 'সুরক্ষা কেন্দ্র',
+            subtitle: 'নিপাহ ভাইরাস প্রতিরোধের সরকারি নির্দেশিকা।',
+            dos_title: "করণীয় (প্রতিরোধ)",
+            donts_title: "বর্জনীয় (উচ্চ ঝুঁকি)",
+            dos: [
+                'ফল খাওয়ার আগে ভাল করে ধুয়ে এবং খোসা ছাড়িয়ে নিন।',
+                'খেজুরের রস পান করার আগে অবশ্যই ফুটিয়ে নিন।',
+                'অসুস্থ ব্যক্তিদের দেখার পর সাবান দিয়ে হাত ধুবেন।',
+                'সংক্রমিত এলাকায় গেলে N95 মাস্ক ব্যবহার করুন।'
+            ],
+            donts: [
+                'পাখি বা বাদুড়ে খাওয়া ফল খাবেন না।',
+                'কাঁচা খেজুরের রস পান করবেন না।',
+                'শুকর বা বাদুড়ের সরাসরি সংস্পর্শ এড়িয়ে চলুন।'
+            ],
+            helplines: 'জরুরি হেল্পলাইন',
+            national: 'জাতীয় হেল্পলাইন',
+            kerala_sentinel: 'কেরালা দিশা',
+            wb_health: 'পশ্চিমবঙ্গ স্বাস্থ্য'
+        }
+    }
+};

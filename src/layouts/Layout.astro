@@ -3,6 +3,7 @@ import '../styles/global.css';
 import ShareButton from '../components/ShareButton';
 import InstallButton from '../components/InstallButton';
 import NotificationButton from '../components/NotificationButton';
+import LanguageSelector from '../components/LanguageSelector';
 
 interface Props {
 	title: string;
@@ -53,6 +54,9 @@ const { title } = Astro.props;
 						<a href="/safety" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">Safety</a>
 						<a href="/about" class="text-sm font-medium text-slate-600 hover:text-red-600 transition-colors">About</a>
 					</div>
+                    <div class="mr-2">
+                        <LanguageSelector client:only="react" />
+                    </div>
                     <NotificationButton client:only="react" />
 					<ShareButton client:only="react" />
 				</div>
