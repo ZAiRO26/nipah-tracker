@@ -1,6 +1,6 @@
 import { atom } from 'nanostores';
 
-export type Language = 'en' | 'ml' | 'bn';
+export type Language = 'en' | 'ml' | 'bn' | 'hi';
 
 // Persist language preference in localStorage if possible, default to English
 const savedLang = typeof window !== 'undefined' ? localStorage.getItem('niv_lang') as Language : 'en';
