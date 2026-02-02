@@ -68,19 +68,38 @@ import SymptomChecker from '../components/SymptomChecker';
                 <SymptomChecker client:visible />
 
                 <div class="mt-8 p-6 bg-slate-100 rounded-xl border border-slate-200">
-                    <h3 class="font-bold text-slate-900 mb-2">Emergency Contacts</h3>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex justify-between">
-                            <span class="text-slate-600">National Helpline</span>
-                            <a href="tel:1075" class="font-bold text-blue-600 hover:underline">1075</a>
+                <div class="mt-8 p-6 bg-slate-100 rounded-xl border border-slate-200">
+                    <h3 class="font-bold text-slate-900 mb-4 flex items-center gap-2">
+                        <span class="text-xl">☎️</span> Emergency Helplines
+                    </h3>
+                    
+                    <div class="space-y-4 text-sm">
+                        <div class="p-3 bg-white rounded-lg border border-slate-200">
+                            <span class="block text-xs uppercase tracking-wider text-slate-500 font-bold mb-1">West Bengal (Crisis Line)</span>
+                            <div class="flex flex-col gap-1">
+                                <a href="tel:03323330180" class="font-bold text-blue-600 hover:underline flex items-center gap-2">
+                                    033-2333-0180
+                                </a>
+                                <a href="tel:9874708858" class="font-bold text-blue-600 hover:underline flex items-center gap-2">
+                                    98747-08858
+                                </a>
+                            </div>
                         </div>
-                        <div class="flex justify-between">
-                            <span class="text-slate-600">Kerala Sentinel</span>
-                            <a href="tel:1056" class="font-bold text-blue-600 hover:underline">1056</a>
+
+                        <div class="p-3 bg-white rounded-lg border border-slate-200">
+                            <span class="block text-xs uppercase tracking-wider text-slate-500 font-bold mb-1">Kerala (Disha/Control Room)</span>
+                            <div class="flex flex-col gap-1">
+                                <a href="tel:1056" class="font-bold text-blue-600 hover:underline flex items-center gap-2">
+                                    1056 <span class="text-slate-400 font-normal text-xs">(Kerala Only)</span>
+                                </a>
+                                <a href="tel:04952381000" class="font-bold text-blue-600 hover:underline flex items-center gap-2">
+                                    0495-2381000 <span class="text-slate-400 font-normal text-xs">(Kozhikode)</span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="flex justify-between">
-                            <span class="text-slate-600">West Bengal Health</span>
-                            <a href="tel:1800313444222" class="font-bold text-blue-600 hover:underline">1800-313-444-222</a>
+
+                        <div class="mt-2 text-xs text-slate-500 bg-yellow-50 p-2 rounded border border-yellow-100">
+                            <strong>Note on 104:</strong> The '104' helpline route varies by state. In Delhi, it may connect to utility services. For Nipah queries, use the specific numbers above.
                         </div>
                     </div>
                 </div>
