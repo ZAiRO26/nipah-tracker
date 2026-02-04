@@ -33,6 +33,20 @@ const { title } = Astro.props;
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Nipah Tracker 2026",
+  "url": "https://nipahtracker.online",
+  "description": "Real-time AI-powered tracker for the 2026 Nipah Virus outbreak. Live maps, case counts, and safety guidelines from WHO/NCDC.",
+  "author": {
+    "@type": "Organization",
+    "name": "NiV-Tracker Initiative"
+  }
+}
+</script>
+
 <head>
 		<meta charset="UTF-8" />
 		<meta
@@ -114,6 +128,10 @@ const { title } = Astro.props;
 				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
 			>
 				<span>About</span>
+<p class="text-xs text-gray-500 mt-2">
+  Data sources: <span class="font-semibold">WHO, NCDC India, CDC</span>. Powered by Artificial Intelligence.
+</p>
+
 			</a>
 		</nav>
 	</body>
