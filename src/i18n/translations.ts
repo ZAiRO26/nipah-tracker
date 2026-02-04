@@ -64,7 +64,19 @@ export const translations = {
             deaths: 'Total Deaths',
             last_updated: 'Last Updated',
             recent: 'Recent',
-            loading: 'Loading...'
+            loading: 'Loading...',
+            cfr: 'CFR (Fatality Rate)',
+            historical: 'Historical'
+        },
+        footer: {
+            desc: 'Real-time surveillance and safety tracking for Nipah Virus (NiV) outbreaks. Not an official government source.',
+            resources: 'Resources',
+            contact: 'Contact',
+            support: 'Support the Watch',
+            privacy: 'Privacy Policy',
+            terms: 'Terms of Service',
+            disclaimer: 'Disclaimer',
+            rights: 'All rights reserved.'
         }
     },
     ml: {
@@ -132,7 +144,19 @@ export const translations = {
             deaths: 'ആകെ മരണം',
             last_updated: 'അവസാന അപ്ഡേറ്റ്',
             recent: 'അടുത്തിടെ',
-            loading: 'ലോഡ് ചെയ്യുന്നു...'
+            loading: 'ലോഡ് ചെയ്യുന്നു...',
+            cfr: 'CFR (മരണ നിരക്ക്)',
+            historical: 'ചരിത്രപരം'
+        },
+        footer: {
+            desc: 'നിപ വൈറസ് (NiV) പൊട്ടിപ്പുറപ്പെടുന്നതിനെക്കുറിച്ചുള്ള തത്സമയ വിവരങ്ങൾ. ഔദ്യോഗിക സർക്കാർ ഉറവിടമല്ല.',
+            resources: 'വിഭവങ്ങൾ',
+            contact: 'ബന്ധപ്പെടുക',
+            support: 'പിന്തുണയ്ക്കുക',
+            privacy: 'സ്വകാര്യതാ നയം',
+            terms: 'സേവന നിബന്ധനകൾ',
+            disclaimer: 'നിരാകരണം',
+            rights: 'എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം.'
         }
     },
     bn: {
@@ -200,7 +224,19 @@ export const translations = {
             deaths: 'মোট মৃত্যু',
             last_updated: 'সর্বশেষ আপডেট',
             recent: 'সাম্প্রতিক',
-            loading: 'লোড হচ্ছে...'
+            loading: 'লোড হচ্ছে...',
+            cfr: 'CFR (মৃত্যুর হার)',
+            historical: 'ঐতিহাসিক'
+        },
+        footer: {
+            desc: 'নিপাহ ভাইরাস (NiV) প্রাদুর্ভাবের রিয়েল-টাইম নজরদারি। এটি কোনো সরকারি উৎস নয়।',
+            resources: 'রিসোর্স',
+            contact: 'যোগাযোগ',
+            support: 'সমর্থন করুন',
+            privacy: 'গোপনীয়তা নীতি',
+            terms: 'পরিষেবার শর্তাবলী',
+            disclaimer: 'দাবিত্যাগ',
+            rights: 'সর্বস্বত্ব সংরক্ষিত।'
         }
     },
     hi: {
@@ -268,7 +304,19 @@ export const translations = {
             deaths: 'कुल मौतें',
             last_updated: 'अंतिम अपडेट',
             recent: 'हाल ही में',
-            loading: 'लोड हो रहा है...'
+            loading: 'लोड हो रहा है...',
+            cfr: 'CFR (मृत्यु दर)',
+            historical: 'ऐतिहासिक'
+        },
+        footer: {
+            desc: 'निपाह वायरस (NiV) के प्रकोप की वास्तविक समय की निगरानी। यह कोई आधिकारिक सरकारी स्रोत नहीं है।',
+            resources: 'संसाधन',
+            contact: 'संपर्क',
+            support: 'समर्थन करें',
+            privacy: 'गोपनीयता नीति',
+            terms: 'सेवा की शर्तें',
+            disclaimer: 'अस्वीकरण',
+            rights: 'सर्वाधिकार सुरक्षित।'
         }
     }
 };

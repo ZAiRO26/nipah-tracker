@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <nav className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2 font-bold text-xl text-slate-900 hover:opacity-80 transition-opacity">
-                <span className="text-red-600 text-2xl">•</span> NiV-Tracker
+                <span className="text-red-600 text-2xl">•</span> NiV-Nipah Virus Tracker
             </a>
 
             <div className="flex items-center gap-1 sm:gap-2">

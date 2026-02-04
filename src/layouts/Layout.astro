@@ -1,6 +1,7 @@
 ---
-import '../styles/global.css';
-import Navbar from '../components/Navbar';
+import "../styles/global.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 interface Props {
 	title: string;
@@ -13,54 +14,86 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Real-time surveillance and safety tracking for Nipah Virus (NiV) outbreaks." />
+		<meta
+			name="description"
+			content="Real-time surveillance and safety tracking for Nipah Virus (NiV) outbreaks."
+		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		
+
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:title" content={title} />
-		<meta property="og:description" content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence. Official Safety Guidelines included." />
+		<meta
+			property="og:description"
+			content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence. Official Safety Guidelines included."
+		/>
 		<meta property="og:image" content="/favicon.svg" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary" />
 		<meta property="twitter:url" content={Astro.url} />
 		<meta property="twitter:title" content={title} />
-		<meta property="twitter:description" content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence." />
+		<meta
+			property="twitter:description"
+			content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence."
+		/>
 		<meta property="twitter:image" content="/favicon.svg" />
 
 		<!-- Robots -->
 		<meta name="robots" content="index, follow" />
 	</head>
-	<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans">
+	<body
+		class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans"
+	>
 		<header class="bg-white shadow-sm sticky top-0 z-50">
 			<Navbar client:load />
 		</header>
 
-		<main class="flex-grow max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+		<main
+			class="flex-grow max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8"
+		>
 			<slot />
 		</main>
 
-        <nav class="md:hidden fixed bottom-0 w-full bg-white border-t border-gray-200 flex justify-around py-2 text-xs font-medium text-gray-500 pb-safe z-50">
-            <a href="/" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
-                <span>Home</span>
-            </a>
-            <a href="/tracker" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
-                <span>Tracker</span>
-            </a>
-            <a href="/news" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
-                <span>News</span>
-            </a>
-            <a href="/safety" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
-                <span>Safety</span>
-            </a>
-            <a href="/about" class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]">
-                <span>About</span>
-            </a>
-        </nav>
+		<Footer client:load />
+
+		<nav
+			class="md:hidden fixed bottom-0 w-full bg-white border-t border-gray-200 flex justify-around py-2 text-xs font-medium text-gray-500 pb-safe z-50"
+		>
+			<a
+				href="/"
+				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
+			>
+				<span>Home</span>
+			</a>
+			<a
+				href="/tracker"
+				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
+			>
+				<span>Tracker</span>
+			</a>
+			<a
+				href="/news"
+				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
+			>
+				<span>News</span>
+			</a>
+			<a
+				href="/safety"
+				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
+			>
+				<span>Safety</span>
+			</a>
+			<a
+				href="/about"
+				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
+			>
+				<span>About</span>
+			</a>
+		</nav>
 	</body>
 </html>

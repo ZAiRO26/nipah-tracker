@@ -16,8 +16,12 @@ export default function StatusBanner() {
                 <LiveClock />
             </div>
 
-            <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2 flex flex-col sm:block items-center justify-center gap-2">
-                {t.status} <span className="text-red-600 inline-flex items-center"><span className="w-3 h-3 bg-red-600 rounded-full mr-2 animate-pulse"></span>{t.active_outbreak}</span>
+            <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2 flex flex-wrap items-center justify-center gap-2">
+                <span>{t.status}</span>
+                <span className="text-red-600 inline-flex items-center">
+                    <span className="w-3 h-3 bg-red-600 rounded-full mr-2 animate-pulse"></span>
+                    {t.active_outbreak}
+                </span>
             </h1>
             <p className="text-slate-600 text-sm sm:text-base max-w-xl mx-auto mb-6">
                 {t.subtitle}
