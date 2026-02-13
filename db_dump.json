@@ -1,0 +1,286 @@
+{
+  "outbreak_events": [
+    {
+      "id": "badc278f-f93f-49f6-821c-3c5df4af6865",
+      "location": "Bangladesh",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "One died from Nipah virus in Bangladesh: WHO",
+      "source_url": "https://www.reddit.com/r/bangladesh/comments/1qyd5ur/one_died_from_nipah_virus_in_bangladesh_who/"
+    },
+    {
+      "id": "deb8c930-c90f-436c-818f-22d06578eca0",
+      "location": "Philippines",
+      "date": null,
+      "status": "DISCARDED",
+      "raw_snippet": "False posts about Nipah virus prey on fear of spread in Philippines",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HNXpPSkFJSlIxWlZUQXp2UTNCblNFX0xaQWlTRDRxSFBpblFXenIxT1hLaW9kY1FhSHVKN0Ewbm9Rc1R6bHN4bWRrT1VXM1lnT2lBWFFNdFY?oc=5"
+    },
+    {
+      "id": "faf0a3b0-3d42-4be0-8302-f8828c64c67c",
+      "location": "Bangladesh",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "One person dead from Nipah virus in Bangladesh, WHO says",
+      "source_url": "https://www.reddit.com/r/TheColorIsBlue/comments/1qy219q/one_person_dead_from_nipah_virus_in_bangladesh/"
+    },
+    {
+      "id": "f5ce5fa2-bfb3-4742-a9d5-8ff5d2a7c17c",
+      "location": "Global",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "What is Nipah virus? And what makes it so deadly? – The Conversation",
+      "source_url": "https://www.reddit.com/r/AutoNewspaper/comments/1qu1mn8/world_what_is_nipah_virus_and_what_makes_it_so/"
+    },
+    {
+      "id": "22785dfb-9f8d-49e0-b112-8520765d07a5",
+      "location": "West Bengal",
+      "date": null,
+      "status": "CONFIRMED",
+      "raw_snippet": "India Reports First Death Following Nipah Virus Infection This Year In West Bengal",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObndCVzh1MzlQdnRQYzJpekJhS3JsOF9nUndsNUp3MGJMVmlsRWRBUXdKdmg5WFZ2UnBoX1ZsblRuSFV3ZVFuakxLZzF2Ymtnbjh0WmlxUFJEb2VYUHEtMlBhNmRLSmNHV0lVTUxuOEVQSjdWNFF6VkZscmJLS1FmNUNMcnpxTlcyWXVQWUY0WjgtcHhHa0FGN3dRS3F2NWwxWGs0NkVHRkJLREhldjJBLWxIVjk3eWR4bS03REtrNkluZ9IBxwFBVV95cUxNQVBiRkZZOUNlSFVrUE1oY2VNYUZkdlIzQUdBQ21yZk1Wdm9qM3ZpRkY4ZlNJcHZueUVqa1ZBWWhKbmNQVWZ6WWNkWWlYWnFiLUw2aHJXQk8tcVE5Z2xWd2txdDJqMWloZ2QxSDdWWjFMbzVNT2pPTDd3SEEzVnhZYUQ0SGJJX1NtUHdJUUFRalhXY1N6Sy1ySWFzUkgxemVkM2hFSGM3VVFqNHlMUE51ZmpDMEM0RFJ5eEtuZWpmQ1R6UzU5R1BV?oc=5"
+    },
+    {
+      "id": "c2601858-63a2-4f93-a17d-f48ec9cc1ea2",
+      "location": "India",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "nipah virus outbreak in India & lockdown in Delhi etc places",
+      "source_url": "https://www.reddit.com/r/TwentiesIndia/comments/1quhezg/what_on_earth_is_this_nipah_outbreak_now/"
+    },
+    {
+      "id": "04cac2a0-04e6-475c-bf88-d5c65fd7cd09",
+      "location": "West Bengal",
+      "date": null,
+      "status": "CONFIRMED",
+      "raw_snippet": "West Bengal reports 1st Nipah death, 25-year-old nurse succumbs to virus - India Today",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcDNrZkc5eUV3Q2N6OXd0b2xSYjl4S2pDbVBIMHI4UkF2cDZpV2VYeGRFZnVzRzJhV3hYcDlUQ08waWVkUWlKbkYwWGh6NDl4ZlhoQ29RY1F2TjBLZTZXckViVVNuS3hpNEtzNXlIYlFOZEljZmVlV0N5d2p0QXVYeTJaN0h1MDBsel80eXBpMVRqX0pfOWF1SE5vZ0ttV1M0X1pEbGFRcDYyWjhMRzV5LUFVV0dtUUplcERNY3NHTThGNGJBYVp5U3Ntc0FuOThXd3VfQU5UM1HSAd4BQVVfeXFMUDRZQzlrMWMtRWowSi01dU4wMERFMmVXcHZVRVN4VnNGcUYxaEZrRXNxWWpuclBWVFBDblppTnVKQW0yengzdDlxdnA0bWV1MUZOSHVabldTYWJaVzBBanpNN2xiOFVYUDlfYTItOERDUzROOFZfQ09VNDVNVXBMYkFOd2pfd0VxNGcwbUQyZ1R3cG5fSk1nVnhoMjJubXV5YXk3bWJVWkYwbXZkbGFxdkJhUWdzV25wbUN4V2ZORXo4UmhGV1p6cjM0TUsxUWQtdWlhOVhXbERzbDRXQ2Z3?oc=5"
+    },
+    {
+      "id": "1762cc6a-3523-4e92-94b5-a98354a15365",
+      "location": "Bangladesh",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "One Person Dead from Nipah Virus in Bangladesh, WHO Says",
+      "source_url": "https://www.reddit.com/r/asia/comments/1qzx95y/one_person_dead_from_nipah_virus_in_bangladesh/"
+    },
+    {
+      "id": "4e971894-8bf7-4e9c-9583-209514097e2f",
+      "location": "Bengal (West Bengal, India)",
+      "date": null,
+      "status": "CONFIRMED",
+      "raw_snippet": "Nurse infected with Nipah virus dies of cardiac arrest in Bengal hospital | India News - Hindustan Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQT1FYV2RlY0RCNE9jSWNlTE1yUkQ3ejloM2NrR0xFTllEZzZmSzB4WUstdjZUMXE2clVzZlBDMGJEYVB4Mzg4SjhUWkN5c3dJQVdLaXc2M0IzSGNiSTR2VFN1b2h4cnNTNUR1Q2VvQ3phb0xqOGI4bFFLSlU4TERJaGRISDlqc0V1Uk5PZzdEY291YmxHdWVpQnV3STFaNUgyaWdVYmItUlBpa1ZVQUNnaFlORTluQUlEeWhHNHYwTTM0T0pOdTlXdzFhUXlyTmRab3fSAdcBQVVfeXFMUHRHS2tiWGVqSm1NT0Jud0lzbk1QeWhaUGh2VTJ4dDloUmxsTG1VM0JqaHRZd0tYY2w5aWNCSDlBZTY5VlJ2N09kejZHYmZENGRPTkhkV24teEdkUzQtZXA4VTdESjFSTnY1Wk0wc0p2QXhPWTVIZ1kzQzNtY1BRVzdXUzBIRGZJQkpuV0tpcE83MFlHREo0X0VrMzN0V1FtYXp0ZjA1UzN6dHR5eWhRUjR1QW5zb0xXNFhxaDlndXdZWldsdDBDSzcxSENOX095cm1lQkg1OXM?oc=5"
+    },
+    {
+      "id": "d0f4dd74-b432-4761-909e-035c17ad0ca8",
+      "location": "Bangladesh",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "Singapore monitoring Nipah virus case reported in Bangladesh; no cases here",
+      "source_url": "https://www.reddit.com/r/ChannelNewsAsia/comments/1qy4wuc/singapore_monitoring_nipah_virus_case_reported_in/"
+    },
+    {
+      "id": "204febe7-ee94-4cf0-8346-3fde3cee044a",
+      "location": "Bangladesh",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "Emerging bat-borne virus found in stored throat swabs from 5 patients with suspected Nipah virus infection Bangladeshi researchers have uncovered an emerging bat-borne virus in archived throat swabs and viral cultures from five patients initially thought to be infected with Nipah virus (NiV).",
+      "source_url": "https://www.reddit.com/r/ContagionCuriosity/comments/1qu9ct3/emerging_bat_virus_found_in_stored_throat_swabs/"
+    },
+    {
+      "id": "5a777b31-63d5-4820-b46d-5303f8411f4a",
+      "location": "Asia",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "Nipah Virus Has Asia on High Alert Amid New Cases in India | NBC",
+      "source_url": "https://www.reddit.com/r/AutoNewspaper/comments/1qtvl7p/health_nipah_virus_has_asia_on_high_alert_amid/"
+    },
+    {
+      "id": "1a816db0-503b-4647-94e0-d4e75ecba473",
+      "location": "India",
+      "date": null,
+      "status": "SUSPECTED",
+      "raw_snippet": "new cases in India",
+      "source_url": "https://www.reddit.com/r/NBCauto/comments/1qtvjd8/health_nipah_virus_has_asia_on_high_alert_amid/"
+    },
+    {
+      "id": "7c9d7f1b-a62e-482d-9138-bdd96e55e657",
+      "location": "Bangladesh",
+      "date": "2026-02-17T00:00:00.000Z",
+      "status": "SUSPECTED",
+      "raw_snippet": "One person was confirmed dead from Nipah virus in Bangladesh.",
+      "source_url": "https://www.reddit.com/r/collapse/comments/1qz82rb/last_week_in_collapse_february_17_2026/"
+    },
+    {
+      "id": "66ef40d4-a396-46ad-b508-8277420d31a6",
+      "location": "Bangladesh",
+      "date": "2026-02-08T00:00:00.000Z",
+      "status": "CONFIRMED",
+      "raw_snippet": "Bangladesh reports 1st Nipah virus case of 2026 - Outbreak News Today",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM2NKMllMcnNFNVlQUHUtRVV6dC1XbzNmVmdFMEVxZFc1dEluMm45czhpWVpXWWtuZXMta3hMcmFhRjZnc3ozLTU4SXd2dmhadnV6OFJyY25Dczlpa0ZCX3RQZFZuQkYxSms3WF9RLUl5MkN4eHdvNHF0UURnclZMQw?oc=5"
+    },
+    {
+      "id": "65a3bfec-9860-48d3-88f9-59d91fa3b15e",
+      "location": "Bangladesh",
+      "date": "2026-02-07T00:00:00.000Z",
+      "status": "SUSPECTED",
+      "raw_snippet": "One person dead from Nipah virus in Bangladesh, WHO says",
+      "source_url": "https://www.reddit.com/r/NoFilterNews/comments/1qztlg3/rworldnews/"
+    },
+    {
+      "id": "b58b2547-42a5-487c-9b8a-0e54d99aef7a",
+      "location": "Batam/Bintan",
+      "date": "2026-02-05T00:00:00.000Z",
+      "status": "SUSPECTED",
+      "raw_snippet": "flagged it as \"History from an infected country.\" Now it's showing as a warning on my summary page.",
+      "source_url": "https://www.reddit.com/r/askSingapore/comments/1qw90sb/anyone_else_getting_history_from_an_infected/"
+    },
+    {
+      "id": "90d576e5-5b0a-4e1e-95ff-199b2ea1f982",
+      "location": "Bangladesh",
+      "date": "2026-02-03T00:00:00.000Z",
+      "status": "SUSPECTED",
+      "raw_snippet": "On 3 February 2026, the International Health Regulations National Focal Point (IHR NFP) for Bangladesh notified WHO of one confirmed case of Nipah virus (NiV) infection in Rajshahi Division,",
+      "source_url": "https://www.reddit.com/r/ContagionCuriosity/comments/1qyomdy/who_says_fatal_case_of_nipah_virus_confirmed_in/"
+    },
+    {
+      "id": "52029388-0818-49ac-ad17-5e3115d9fa4a",
+      "location": "North 24 Parganas, West Bengal",
+      "date": "2026-02-01T00:00:00.000Z",
+      "status": "SUSPECTED",
+      "raw_snippet": "WHO DON Report 593",
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON593"
+    },
+    {
+      "id": "62740e88-3e6d-4923-898a-00f68777510e",
+      "location": "Barasat, West Bengal",
+      "date": "2026-01-30T00:00:00.000Z",
+      "status": "CONFIRMED",
+      "raw_snippet": "Manual Baseline Injection",
+      "source_url": "https://ncdc.mohfw.gov.in/index.php"
+    }
+  ],
+  "news_articles": [
+    {
+      "id": 97,
+      "title": "",
+      "published_at": "2026-02-10T00:31:06.129Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 94,
+      "title": "New fatal case of NIPAH virus confirmed by health officials - and it happened outside of India  - dailymail.co.uk",
+      "published_at": "2026-02-09T18:31:12.483Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 93,
+      "title": "Woman in Bangladesh dies after contracting Nipah virus",
+      "published_at": "2026-02-09T16:32:06.361Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 92,
+      "title": " Alert as woman dies from virus ",
+      "published_at": "2026-02-09T14:30:12.517Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 90,
+      "title": "‘Not Directly Comparable’: Erasmus Prof Sander Herfst On Why India’s Nipah Response Didn’t Need",
+      "published_at": "2026-02-08T22:31:54.963Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 86,
+      "title": "WHO confirms one Nipah virus death in Bangladesh",
+      "published_at": "2026-02-08T06:30:58.422Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 82,
+      "title": "Nipah Virus Case Confirmed in Northwestern Bangladesh",
+      "published_at": "2026-02-07T06:32:04.716Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 34,
+      "title": "WHO Says Nipah Virus Risk Is Low After Two Cases Reported in India",
+      "published_at": "2026-02-03T12:31:09.975Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 23,
+      "title": "Nipah Virus Outbreak Has Asia on High Alert Amid Deaths in India",
+      "published_at": "2026-02-03T04:30:11.489Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 22,
+      "title": "Nipah virus fact sheet",
+      "published_at": "2026-02-03T02:31:25.665Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 19,
+      "title": "WHO says regional, global risk from Nipah virus in India remains low",
+      "published_at": "2026-02-02T22:31:48.630Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 17,
+      "title": "Nipah Virus Outbreak Raises Asia on High Alert",
+      "published_at": "2026-02-02T16:31:48.267Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 7,
+      "title": "WHO says Nipah virus risk low in India with no sign of spread",
+      "published_at": "2026-02-02T12:31:57.977Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 1,
+      "title": "Nipah virus outbreak in Kerala: What we know so far",
+      "published_at": "2026-02-02T10:54:34.860Z",
+      "source_name": "WHO"
+    },
+    {
+      "id": 3,
+      "title": "Reddit Thread: Unusual fever cases in MyMensingh?",
+      "published_at": "2026-02-02T09:54:34.861Z",
+      "source_name": "r/Bangladesh"
+    },
+    {
+      "id": 2,
+      "title": "West Bengal on alert following Nipah reports",
+      "published_at": "2026-02-01T10:54:34.861Z",
+      "source_name": "Times of India"
+    },
+    {
+      "id": 99,
+      "title": "Risk Analysis: Preventive Measures for Nipah Virus Implemented in Sri Lanka ",
+      "published_at": "2024-02-06T18:30:00.000Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 51,
+      "title": "Nipah cases in India: Experts explain the sneaky symptoms, and deadly risks we are not aware of - Times of India",
+      "published_at": "2024-02-05T20:17:04.000Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 96,
+      "title": "Nipah Virus Infection in Focus: Expert Perspectives from a WHO SEARO Webinar World Health Organization (WHO)",
+      "published_at": "2024-02-05T18:30:00.000Z",
+      "source_name": "\"Nipah Virus\""
+    },
+    {
+      "id": 47,
+      "title": "Nipah Outbreak in India Poses Low Global Risk Despite Lack of Approved Treatments",
+      "published_at": "2024-02-04T18:30:00.000Z",
+      "source_name": "\"Nipah Virus\""
+    }
+  ]
+}

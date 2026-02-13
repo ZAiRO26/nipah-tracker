@@ -38,7 +38,7 @@ export default defineConfig({
           ]
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+          globPatterns: ['**/*.{js,css,ico,png,svg}'],
           runtimeCaching: [
             {
               // Cache Safety and About pages for offline access

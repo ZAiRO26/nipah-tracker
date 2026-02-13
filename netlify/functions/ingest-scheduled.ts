@@ -21,8 +21,6 @@ interface OutbreakEvent {
 
 const RSS_SOURCES = [
     "https://www.who.int/feeds/entity/emergencies/disease-outbreak-news/rss.xml",
-    "https://news.google.com/rss/search?q=Nipah+Virus+India+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
-    "https://www.reddit.com/search.rss?q=nipah+virus&sort=new",
     "https://www.cidrap.umn.edu/news/rss",
     "https://tools.cdc.gov/api/v2/resources/media/132608.rss"
 ];
@@ -32,14 +30,13 @@ const SYSTEM_PROMPT = `You are a crisis intelligence filter.
 
 1. For WHO/Official sources: Trust high confidence.
 2. For Google News: Mark as SUSPECTED unless multiple sources cite officials.
-3. For REDDIT: You are a 'Rumor Scout'. 
-   - IGNORE memes, questions, and self-posts. 
-   - ONLY extract if the user shares a link to a news site/government domain. 
-   - Set status='SUSPECTED' and confidence=0.2 (or lower). 
-   - NEVER mark Reddit data as 'CONFIRMED'.
+
+CRITICAL INSTRUCTION:
+- Extract ONLY NEW / FRESH cases reported in this specific article.
+- DO NOT extract cumulative totals (e.g. "Total cases since Jan are 10" -> Ignore. "2 new cases reported today" -> Extract 2).
+- If the article discusses history or general facts, return empty events.
 
 Extract confirmed Nipah cases GLOBALLY. Do NOT limit to India. 
-Look for reports from Bangladesh, Malaysia, Singapore, and Kerala.
 For CDC/CIDRAP feeds, specifically look for keywords 'Nipah', 'NiV', or 'Encephalitis outbreaks'.
 
 Return JSON ONLY with this schema:
@@ -50,8 +47,8 @@ Return JSON ONLY with this schema:
       "date": "ISO8601 string",
       "location": "string (specific place)",
       "admin_level": "National" | "State" | "District" | "City",
-      "cases": number (confirmed count),
-      "deaths": number,
+      "cases": number (ONLY NEWLY CONFIRMED count),
+      "deaths": number (ONLY NEW DEATHS),
       "status": "CONFIRMED" | "SUSPECTED" | "DISCARDED",
       "confidence_score": number (0.0 to 1.0),
       "raw_snippet": "string (exact quote supporting the extraction)"
