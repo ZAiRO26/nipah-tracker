@@ -1,23 +1,25 @@
 ---
 export const prerender = false;
-import Layout from '../layouts/Layout.astro';
-import StatsGrid from '../components/StatsGrid';
-import LiveFeed from '../components/LiveFeed';
-import StatusBanner from '../components/StatusBanner';
+import Layout from "../layouts/Layout.astro";
+import StatsGrid from "../components/StatsGrid";
+import LiveFeed from "../components/LiveFeed";
+import StatusBanner from "../components/StatusBanner";
 ---
 
-<Layout title="NiV-Tracker | Real-time Nipah Virus Surveillance">
+<Layout title="NiV-Tracker | Real-time Nipah Virus Tracker">
     <StatusBanner client:load />
 
     <StatsGrid client:load />
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div class="lg:col-span-2">
-             <LiveFeed client:load />
+            <LiveFeed client:load />
         </div>
         <div class="space-y-6">
             <div class="p-6 bg-emerald-50 rounded-xl border border-emerald-100">
-                <h3 class="text-lg font-semibold text-emerald-900 mb-3">Safety First</h3>
+                <h3 class="text-lg font-semibold text-emerald-900 mb-3">
+                    Safety First
+                </h3>
                 <ul class="space-y-3 text-sm text-emerald-800">
                     <li class="flex gap-2">
                         <span class="text-emerald-600">✓</span>
@@ -32,36 +34,42 @@ import StatusBanner from '../components/StatusBanner';
                         Avoid contact with bats.
                     </li>
                 </ul>
-                <a href="/safety" class="mt-4 inline-block text-sm font-medium text-emerald-700 hover:text-emerald-800 underline">
+                <a
+                    href="/safety"
+                    class="mt-4 inline-block text-sm font-medium text-emerald-700 hover:text-emerald-800 underline"
+                >
                     View Full Safety Guide &rarr;
                 </a>
             </div>
 
             <div class="p-6 bg-slate-900 text-white rounded-xl">
-                 <h3 class="text-lg font-semibold mb-2">Report Symptoms</h3>
-                 <p class="text-slate-400 text-sm mb-4">
-                    Fever, headache, cough, breathlessness? If you have travel history to affected areas:
-                 </p>
-                 <a href="tel:104" class="block w-full text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg transition-colors">
+                <h3 class="text-lg font-semibold mb-2">Report Symptoms</h3>
+                <p class="text-slate-400 text-sm mb-4">
+                    Fever, headache, cough, breathlessness? If you have travel
+                    history to affected areas:
+                </p>
+                <a
+                    href="tel:104"
+                    class="block w-full text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg transition-colors"
+                >
                     Call 104 Helpline
-                 </a>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "NipahTracker.online",
-  "description": "The only real-time, AI-powered Nipah Virus (NiV) tracker for the 2026 outbreak. Aggregates data from WHO, NCDC India, and Google News.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "NiV-Tracker Open Source Initiative"
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://nipahtracker.online/"
-  }
-}
-</script>
-
+                </a>
+                <script type="application/ld+json">
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        "name": "NipahTracker.online",
+                        "description": "The only real-time, AI-powered Nipah Virus (NiV) tracker for the 2026 outbreak. Aggregates data from WHO, NCDC India, and Google News.",
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "NiV-Tracker Open Source Initiative"
+                        },
+                        "potentialAction": {
+                            "@type": "SearchAction",
+                            "target": "https://nipahtracker.online/"
+                        }
+                    }
+                </script>
             </div>
         </div>
     </div>

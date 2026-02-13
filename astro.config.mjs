@@ -20,7 +20,7 @@ export default defineConfig({
         manifest: {
           name: 'NiV-Tracker 2026',
           short_name: 'NiV-Tracker',
-          description: 'Real-time Nipah Virus Surveillance & Safety Platform',
+          description: 'Real-time Nipah Virus Tracker & Safety Platform',
           theme_color: '#ffffff',
           background_color: '#ffffff',
           display: 'standalone',

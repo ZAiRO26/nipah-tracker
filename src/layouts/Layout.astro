@@ -13,74 +13,76 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en">
 	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X94T6M1W3K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X94T6M1W3K"
+	></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
 
-  gtag('config', 'G-X94T6M1W3K');
-</script><script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Nipah Tracker 2026",
-  "url": "https://nipahtracker.online",
-  "description": "Real-time AI-powered tracker for the 2026 Nipah Virus outbreak. Live maps, case counts, and safety guidelines from WHO/NCDC.",
-  "author": {
-    "@type": "Organization",
-    "name": "NiV-Tracker Initiative"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Nipah Tracker 2026",
-  "url": "https://nipahtracker.online",
-  "description": "Real-time AI-powered tracker for the 2026 Nipah Virus outbreak. Live maps, case counts, and safety guidelines from WHO/NCDC.",
-  "author": {
-    "@type": "Organization",
-    "name": "NiV-Tracker Initiative"
-  }
-}
-</script>
+		gtag("config", "G-X94T6M1W3K");
+	</script><script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "NiV-Tracker 2026",
+			"url": "https://nipahtracker.online",
+			"description": "Real-time AI-powered tracker for the 2026 Nipah Virus outbreak. Live maps, case counts, and safety guidelines from WHO/NCDC.",
+			"author": {
+				"@type": "Organization",
+				"name": "NiV-Tracker Initiative"
+			}
+		}
+	</script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "NiV-Tracker 2026",
+			"url": "https://nipahtracker.online",
+			"description": "Real-time AI-powered tracker for the 2026 Nipah Virus outbreak. Live maps, case counts, and safety guidelines from WHO/NCDC.",
+			"author": {
+				"@type": "Organization",
+				"name": "NiV-Tracker Initiative"
+			}
+		}
+	</script>
 
-<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="description"
-			content="Real-time surveillance and safety tracking for Nipah Virus (NiV) outbreaks."
-		/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+	<meta charset="UTF-8" />
+	<meta
+		name="description"
+		content="Real-time tracking and safety updates for Nipah Virus (NiV) outbreaks."
+	/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<meta name="generator" content={Astro.generator} />
+	<title>{title}</title>
 
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content={Astro.url} />
-		<meta property="og:title" content={title} />
-		<meta
-			property="og:description"
-			content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence. Official Safety Guidelines included."
-		/>
-		<meta property="og:image" content="/favicon.svg" />
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={Astro.url} />
+	<meta property="og:title" content={title} />
+	<meta
+		property="og:description"
+		content="Real-Time Nipah Virus Tracker & Safety Platform. Monitoring global outbreaks with AI-powered intelligence. Official Safety Guidelines included."
+	/>
+	<meta property="og:image" content="/favicon.svg" />
 
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary" />
-		<meta property="twitter:url" content={Astro.url} />
-		<meta property="twitter:title" content={title} />
-		<meta
-			property="twitter:description"
-			content="Real-Time Nipah Virus Surveillance & Safety Platform. Monitoring global outbreaks with AI-powered intelligence."
-		/>
-		<meta property="twitter:image" content="/favicon.svg" />
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:url" content={Astro.url} />
+	<meta property="twitter:title" content={title} />
+	<meta
+		property="twitter:description"
+		content="Real-Time Nipah Virus Tracker & Safety Platform. Monitoring global outbreaks with AI-powered intelligence."
+	/>
+	<meta property="twitter:image" content="/favicon.svg" />
 
-		<!-- Robots -->
-		<meta name="robots" content="index, follow" />
-	</head>
+	<!-- Robots -->
+	<meta name="robots" content="index, follow" />
+
 	<body
 		class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans"
 	>
@@ -128,10 +130,11 @@ const { title } = Astro.props;
 				class="flex flex-col items-center justify-center gap-1 hover:text-red-600 min-h-[44px] min-w-[64px]"
 			>
 				<span>About</span>
-<p class="text-xs text-gray-500 mt-2">
-  Data sources: <span class="font-semibold">WHO, NCDC India, CDC</span>. Powered by Artificial Intelligence.
-</p>
-
+				<p class="text-xs text-gray-500 mt-2">
+					Data sources: <span class="font-semibold"
+						>WHO, NCDC India, CDC</span
+					>. Powered by Artificial Intelligence.
+				</p>
 			</a>
 		</nav>
 	</body>
