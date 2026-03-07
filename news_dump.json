@@ -1,0 +1,159 @@
+{
+  "total_articles": "94",
+  "date_range": {
+    "oldest": "1999-12-31T18:30:00.000Z",
+    "newest": "2026-03-02T12:31:16.522Z"
+  },
+  "latest_15": [
+    {
+      "id": 150,
+      "title": "Nipah virus",
+      "summary": "",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUXdIYlhISWMwSi1tNEU4cHgyZnQ5NHdNX1FNWkhpWGJ2Vm5pY1FvUkpDZ0hhcERrUmRXLWpLRkVLODA2eFRxNnpxSDZzMkR5QlJGMjdZejlUQWxYWVBXWm1EMnRkV3kwVDFQcEt1dHlRUVJhQzFTTVcxcGN3eFBiZWpTbnhBZ1JXdHlUTG40NW52MDZQQ2h4RFZaMi1DaDBjTWczbEFCQ0pkdGp6MWt0ZENERDQzQmlLdXdmbGNwTy0?oc=5",
+      "published_at": "2026-03-02T12:31:16.522Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.67
+    },
+    {
+      "id": 149,
+      "title": "Situation Updates on the Nipah Virus cases in India",
+      "summary": "India has reported cases of the Nipah virus.",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEdaejVLOHlKZG93cjBXYzdXXzczM08yN0VJektIeUFhdkRtX2hZVGFmc2J1UGVZVFY1eUhCX2lCdVNFeGVaRHVTaHR1dTktMXNlUG9nRHgwRHY5Ymc2SDRvRmZUU1lzaG85ZzVrUjhIN2FiaHg4NzV3ak16STRjVVBqRUFGazl1T1VwYw?oc=5",
+      "published_at": "2026-03-01T10:31:26.925Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.7
+    },
+    {
+      "id": 147,
+      "title": "Commentary: Singapore’s best defence against Nipah virus isn’t temperature screening at the airport",
+      "summary": "Singapore's best defence against Nipah virus is not at the airport's temperature screening.",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalJUMGd6RUhVWHVSQkhWMTI4VXlwVnQxQlVRVWhkLVcyeGJSeW1wR3pfeHp2a19UeVFKNDEzSXVhZk1yR0s5NTdTWnY3SXE5czk5NTh5d2g0VGFRNEdEMG9wX0xtLW5BZ1plc3MxNFhKbTJfMVFNS25MVTljT2c1ZldwZk43N2JTaGFNOXpJVUpySE9JWE9ISG5McmV4Q3hPTEE?oc=5",
+      "published_at": "2026-02-28T22:32:19.680Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.7
+    },
+    {
+      "id": 146,
+      "title": "WHO Confirms Nipah Virus Fatality: Key Facts About the Deadly Pathogen",
+      "summary": "WHO confirms Nipah virus fatality with key facts about the deadly pathogen.",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXJ5c2FIUDlOMmJVZDJ3SFNvY0QwX2ZzVHpWU1ZjZ0VZTDQ5WkRuTUlmTjFiS3NRbFUzUkRMTVdRRnhRcFJXT0M0clQxQVh5SVlHSm1KQlRNd3FuTFR0RjNaREw1bnViYmJsZGdlZTlVMjlFcDVuWG1YcEZwWnhIejNJaWphUmszU0RMaVBiX1ltZjg1MlljSldKZ1VNUQ?oc=5",
+      "published_at": "2026-02-28T14:30:30.808Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 133,
+      "title": "All about Nipah",
+      "summary": "Nipah virus is a zoonotic virus, mainly found in bats and transmitted through contact with their saliva.",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83S1BldWVWcHJJUFJSd1kyc0QwYk13dFBZUWExeWlBdjlNX3Z0NXhPUy0wNERMV0t1cU5aa2ptRUM5SGpBNTVzaDJHUzRmdmEwQW85UmFibWN5bEJMSndKY0Y2SFpVXzByTmdFdi1zNVM3d1NQR0NLWWh30gF_QVVfeXFMTjNJcTcyUDJYN1R3U1Q0M1V4cHRCUlhlQnkyNzhWejhYRUl0VlprTFpySmJlal91VFV3U1ptVjFPYkd6T0hhQnFrTTJ4dFNYRVd4MDZ0bHVjQVRRSHFHd2piVllVSERQaUQzSlBNTm5BYnF4Vlo5MjRMdWo0MGp4NA?oc=5",
+      "published_at": "2026-02-17T22:31:16.901Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 129,
+      "title": "Nurse who recovered from Nipah virus infection dies of cardiac arrest in Bengal hospital: Official",
+      "summary": "Nurse who recovered from Nipah virus infection dies of cardiac arrest.",
+      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR2NreElVSlZBY05xaFNWUmxlSDFKZTNkaGNCQ2lGNlpnTzBaUVpDVDhwSC12NGp0MWhlN0VOLThEWU1oWU9iVDhLczdQUXlYajNidEdjMzFyLW96REFYZnp1R0dyWGNYNnd5UldOQTBjdy1VQllheTNxQ0dLemJqS3E5VkdVOEFTU19Uc1psZ2ZSUHhsbXdmcFo0Qml0Zm1uTVpSQ3U4MmRxbi0yYXNTc0NUbXQ0WGtweTJsdGJWNzYzZEZVMl8tVjVOVkZkcXpOTkc1VlA2a0Y3azloTV8tV2RKekJ0a1ZKbEhhdkF3dlFfQUppOUk1LQ?oc=5",
+      "published_at": "2026-02-15T20:31:37.113Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 125,
+      "title": "India reports first Nipah death of latest outbreak but says no new cases detected",
+      "summary": "India reports first Nipah death, but no new cases detected in latest outbreak.",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX082SVRCMDNmWUJNVVpqZ3pkaHB4dzd2bkd0dDBfRW1xdjZ1RU5IempPTkwxanJBSTF5RTRJc1ZZSHhUTF9PLVFoVjZ5Yk94YWp0WS1nVXJUZFVFei1TLVV0Z3A1OEVfX1oybzF4MVZ5eTdPT1dtQVZudUxrRnl1a1hmbThwUjNuS0E1R1RDUmlNaFJCakd0U0p3UF9MSTUyWUUzVW1tZnNmd9IBrwFBVV95cUxPcHAtRnJSZEtWQ3BldktGRlVtRTdYSWRzZ0NyU1p4UG1ROG5aR3RPcUFtb1lvLU9fTFpCakVJLTV2bkxkTkl0OEpJU0FwRThvb0JmalFROURjem84eFhNRzE3SVU1VGhHRWNQUlNrMTZCdm5DcGZOZEZzSmZkU21BdmRWVmdCVmZHV2VoOUNGd0YzVThMZE4zMl9mdWJ0OWlqZFpiYy1YcUt5aXhfM0NN?oc=5",
+      "published_at": "2026-02-15T14:31:56.684Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 117,
+      "title": "Infectious Disease Expert on Latest Nipah Virus Case: \"Be Alert, But Not Alarmed\"",
+      "summary": "Disease expert advises to be alert for Nipah Virus but not alarmed after latest case report.",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNVJ6bzhvM3pIOW5CUER2RnpRSmMtaWtWOGtwbll5dDk0c21ZX2F4dFRoUFB3WXhmcnhjU1ViYTdnSUpsQ3pZRHFzZGZYSWFDdktSWks3Z2tjbVZqeTAtNTlLeWdWb0NJazZUbnNjVG1YdXhkRG1jYkRFWUtqUVBDdUlJdS1DMGMzTmN4VFg5dUd6MmdjXzY0S1pTS3NoQ2VEZmNQVnU4T1VQOGt2Z0k2dlkzcw?oc=5",
+      "published_at": "2026-02-13T08:30:17.214Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.7
+    },
+    {
+      "id": 97,
+      "title": "",
+      "summary": "Nipah virus cases reported in India, Bangladesh, with one death confirmed in Bangladesh.",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2bGRMQkhXUmx2d1FYYTV6RGNrai1rdVFOYTJjLUVyWGlHVzRxUmZHU3pWX1dBQmZoYmRBYVJteDFFQzB1TDFpM1JhenRramNlM3F0Z2ljc0IzdzlsUUhsRldieWh1cUVTVE9iM3B0T1VCR1Z0V3RJdA?oc=5",
+      "published_at": "2026-02-10T00:31:06.129Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 94,
+      "title": "New fatal case of NIPAH virus confirmed by health officials - and it happened outside of India  - dailymail.co.uk",
+      "summary": "New fatal case of Nipah virus confirmed outside of India.",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS3o5a2hwRW1YaDJuTWhpVmRWbGIzSEhYaWpkSDN2bjhaNmlWbTBiSHk0U1djQUcza1B4MWdfZ0x4QkYxUjFvdUhUdzJfOWcwZ0N0b0JCa0N0UUtpcUlhVEZzYmVLaXRvMmcyTUVYcjFSQVJwclN5TTBDSVBWeE5waFNrLTRIdzdRUWNDSE90MGZ3UdIBlwFBVV95cUxNSVlkUGd1NDZrX3A0a2JuM29CVTAza1NxSTh1SU9FZll2Uml6dzNBVkNBWjh6REIwaFhkSkREUDlEcTJMem0ta2lXOFo4Q3VRcGJiLVhXWVVvWWNFRnFUMWFNQlNiYmppZUpCRDNZV3hPZHRzNEM1S3Y3dWhFRTloVzIzQkQyQTl4U1gwenQ1RlNmclVCc3Fr?oc=5",
+      "published_at": "2026-02-09T18:31:12.483Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 93,
+      "title": "Woman in Bangladesh dies after contracting Nipah virus",
+      "summary": "Woman in Bangladesh dies after contracting the Nipah virus, according to the World Health Organization.",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZG5NM2FadTh2WEZ5Szg2YlNIWVVtbVBySnRTbGduSnZzOXN4Y3M0Wm5zYVJHVU5jOFY4NHREOTJQWTMzZW1lSVdEaXRlODJmVTVCUGFleDFrbGFUU2VZM2NkbXE0UkRlRjBRV0VraUFnUFFGaEcwY2xYTHFJbVI5LTd5LU0zaXM4V2h4MDAzXzFETW50TE5SVkFYUjVuOVZwTGxZSXIxVENydw?oc=5",
+      "published_at": "2026-02-09T16:32:06.361Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.7
+    },
+    {
+      "id": 92,
+      "title": " Alert as woman dies from virus ",
+      "summary": "Woman dies from virus, sparking alert.",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSXFPRGtwRlozLVlHRzdRcWp6ekpBelZ0SzdzcDNQeVNxa282RUJQdDF4UC1NMThLUlFUbUFHSzVadWM4ck5lTFRDZHdxd2dyallEZFJGdHdVbVI2WlE4V21EX2FTRm1JZWlYTEM4YzVkdUpDdE11YlVWaE84Zl80Z2VocG5vb3dxa3lncFpOY1BJeTFlYWVQVkZSRTdSVDl4Sjc1OVdWVV9RaWFwYm50UkxuNkFvdmljVC1YRDJmMkVjM2ZnN0tDRk1lTmhmVTRWVWVBM2hlVEc1akFB0gHiAUFVX3lxTE5reFpERDkzUGpPakpvcUwtRnpXZkxfYTVsckJMeFV2My14WkI0eGNuTkNDTXJNZklobEdaeTRUTWZGMlJIV1M0V1lYN0R4cUNHdEtrMWx5MFRMUDJVTzlhb3RCQlNOcXN6aENENno4MmVRd1B1cC00ZVVnbWl2Wm01MEM1WUZWOTVLbVFQbGtoa2h1NW1NMXpDcm9rYTdubXozRFRjbTBGZnZlMXdSS2tXbjMzVHgyc2lPQkhCajJCSzNvRkNoc2FEcjNGdmw4UDA5ZXB0WVZodzlLNjJYMTNaaVE?oc=5",
+      "published_at": "2026-02-09T14:30:12.517Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 90,
+      "title": "‘Not Directly Comparable’: Erasmus Prof Sander Herfst On Why India’s Nipah Response Didn’t Need",
+      "summary": "Erasmus Prof Sander Herfst explains why India's Nipah response wasn't directly comparable to other outbreaks.",
+      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeG9DdldzUTZpTEx3Tk9GUHEyRjN2M2RWSVdzU2VLTndKNkNfVm5FRFVUQjJ6eWlVTzNqeVpGYkRuaG4zVFNqTFZZVlFJNExkLTNBYklMYlBZeE1ETGh1cVBYTXNReVpNc1lhVHBqT0U3MWZzMTZka3ZKMUpkYjRKUnBLLUVqZndpS3NGZVZuVW9UOHo3RjZ6OFNkOFNjbkJFSlVXczhpWDd4ZzYwSUx5aFd1VTdFRWI4eVZJTXBsSjJ3WHpHbjd1ekpiX1NSRXJPU2FFWVZrM3RlNEJ3WW1UZzRYVdIB6wFBVV95cUxNbXlCanlxZHNkVThVRzF4UTNjMHRWQ2Z2eTI2RkkxRE9ueEs5ZDJETVZqR0MxSjIzT0ZFSEltVHpkWlpGQzUwS1Q0Q1o5bVJqSF9FVmNEeG16NVlKdTdzRFpoODQxVlFnbHBwVDdxZlBsMEhGbGRfMkYzWjQwM3c5S0lIUHN5d2w1VUxYb0ljUFJkc203UVZoOFZoYWRYdGlzaEM1M2NJcjg0TVJPWTFuWndmT3NnZUxPU2VtbDBKNWcwX1A1cFhqalMyTFpCZXlkbm9QeTUyWlhEWG9USTIyODNKM00zdllieVVJ?oc=5",
+      "published_at": "2026-02-08T22:31:54.963Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 86,
+      "title": "WHO confirms one Nipah virus death in Bangladesh",
+      "summary": "WHO confirms one Nipah virus death in Bangladesh, weeks after two cases in West Bengal.",
+      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdEVOUVlwSzQxSHVDMXV0NzBKYmdsdW9Dam9XTFdvRVNNZDVaZWJKUHd2Nklvd3lVREVfZmJFR3VMbW81aEFMU1EyTXBFWmhSelBCUWEtU3E4SHpFd0YyZVNuWXZtWW9yUm5nNHhzd1NaT2VTQmNCbzcyNzF5M2RPSlZpRTdmM2lkVnJXbTcxQUFRNzFVT2F2Qm40aVg5ZklDWmtyQVJ3VzJEODRFRUVfYkJlZFNodnRVWGU2NFl4UXh5OHVmUjVGLXBWb3VUSzdBUGw5UENzbWZMQXVJXzhjTmlhUdIB6gFBVV95cUxNZ1RrMTdvRmFWZWtYNTEwaW4tREZwNE5xNTJtV1ZfSmNacHJOZjV1SW9kbWpTemFFSWExRVFqdDBRcE9nVFF5a1ZybUhzTXZxWkRlNHNpNjhDZThrOUFYdUV6MEo1UWw1bTJqMnNEMEgzOXhDX05CWjNYZmowbWk3T21pb3lvYjZaNXkwX1gzQV95a3JscHFZalc3WlNZei1icE40dW9WT1hIV3E1QlVlUERzdXlTRm1rMVZBemZubl9uekZtN0RrUjJnTHJOVnYzWDdGcHQwYWRBTWxkQlNrMjlaZlBQUWJQanc?oc=5",
+      "published_at": "2026-02-08T06:30:58.422Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.8
+    },
+    {
+      "id": 82,
+      "title": "Nipah Virus Case Confirmed in Northwestern Bangladesh",
+      "summary": "Nipah Virus case confirmed in Northwestern Bangladesh.",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3Y4OThpaTNlNGdVMkpSNnF6bTY0ZkJJYUNVbFNORFpfODJCRHd0d184WDhjT3lWbDVwY0xkdGFOM1ctRVhwRTFITF9jbDZsVVdwS3NreUZnNjljMkZPaVRxMEpWRGE2VnZoR3F5Rllma1ZGVE9Qb3hvZjRRUmExcS1YUFNYcEVfWmZHaXk1dXZqVk1UbHc0bGMwUQ?oc=5",
+      "published_at": "2026-02-07T06:32:04.716Z",
+      "source_name": "\"Nipah Virus\"",
+      "category": "News",
+      "confidence_score": 0.9
+    }
+  ]
+}
