@@ -4,10 +4,15 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 interface Props {
-	title: string;
+	title?: string;
 }
 
 const { title } = Astro.props;
+
+// SEO Variables (Restoring your high-ranking keywords)
+const defaultTitle = "Nipah Virus Tracker 2026 (NiV) | Real-Time India & Global Map";
+const pageTitle = title ? `${title} | Nipah Virus Tracker 2026 (NiV)` : defaultTitle;
+const seoDescription = "Live 2026 Nipah Virus (NiV) outbreak tracker. Real-time map of confirmed cases in West Bengal, India, and globally. Official data from WHO & NCDC. Offline-ready safety guide.";
 ---
 
 <!doctype html>
@@ -17,16 +22,16 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
 
-		<meta name="description" content="Real-time tracking and safety updates for Nipah Virus (NiV) outbreaks." />
+		<title>{pageTitle}</title>
+		<meta name="title" content={pageTitle} />
+		<meta name="description" content={seoDescription} />
 
 		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-X94T6M1W3K"></script>
 		<script is:inline>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-
 			gtag('config', 'G-X94T6M1W3K');
 		</script>
 
@@ -46,14 +51,14 @@ const { title } = Astro.props;
 
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={Astro.url} />
-		<meta property="og:title" content={title} />
-		<meta property="og:description" content="Real-Time Nipah Virus Tracker & Safety Platform. Monitoring global outbreaks with AI-powered intelligence. Official Safety Guidelines included." />
+		<meta property="og:title" content={pageTitle} />
+		<meta property="og:description" content={seoDescription} />
 		<meta property="og:image" content="/favicon.svg" />
 
 		<meta property="twitter:card" content="summary" />
 		<meta property="twitter:url" content={Astro.url} />
-		<meta property="twitter:title" content={title} />
-		<meta property="twitter:description" content="Real-Time Nipah Virus Tracker & Safety Platform. Monitoring global outbreaks with AI-powered intelligence." />
+		<meta property="twitter:title" content={pageTitle} />
+		<meta property="twitter:description" content={seoDescription} />
 		<meta property="twitter:image" content="/favicon.svg" />
 
 		<meta name="robots" content="index, follow" />
