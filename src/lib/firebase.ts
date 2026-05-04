@@ -11,8 +11,7 @@ const firebaseConfig = {
     projectId: "nipah-tracker",
     storageBucket: "nipah-tracker.firebasestorage.app",
     messagingSenderId: "786979842657",
-    appId: "1:786979842657:web:21b566c5956cad5a0cd820",
-    measurementId: "G-X94T6M1W3K"
+    appId: "1:786979842657:web:21b566c5956cad5a0cd820"
 };
 
 // Initialize Firebase

@@ -13,17 +13,12 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en">
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-X94T6M1W3K"
-	></script>
-	<script>
-		const w = window as any;
-		w.dataLayer = w.dataLayer || [];
-		function gtag(...args: any[]) {
-			w.dataLayer.push(args);
-		}
-		gtag("js", new Date());
-
-		gtag("config", "G-X94T6M1W3K");
+	<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-X94T6M1W3K"></script>
+	<script is:inline>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-X94T6M1W3K', { send_page_view: false });
 	</script><script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
@@ -138,5 +133,16 @@ const { title } = Astro.props;
 				</p>
 			</a>
 		</nav>
+
+	<script is:inline>
+		document.addEventListener('astro:page-load', function() {
+			if (typeof gtag !== 'undefined') {
+				gtag('event', 'page_view', {
+					page_title: document.title,
+					page_location: window.location.href
+				});
+			}
+		});
+	</script>
 	</body>
 </html>
