@@ -26,6 +26,7 @@ const seoDescription = "Live 2026 Nipah Virus (NiV) outbreak tracker. Real-time 
 		<title>{pageTitle}</title>
 		<meta name="title" content={pageTitle} />
 		<meta name="description" content={seoDescription} />
+		<link rel="canonical" href={Astro.url} />
 
 		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-X94T6M1W3K"></script>
 		<script is:inline>
@@ -39,7 +40,7 @@ const seoDescription = "Live 2026 Nipah Virus (NiV) outbreak tracker. Real-time 
 			{
 				"@context": "https://schema.org",
 				"@type": "WebSite",
-				"name": "NiV-Tracker 2026",
+				"name": "Nipah Virus Tracker 2026",
 				"url": "https://nipahtracker.online",
 				"description": "Real-time AI-powered tracker for the 2026 Nipah Virus outbreak. Live maps, case counts, and safety guidelines from WHO/NCDC.",
 				"author": {
